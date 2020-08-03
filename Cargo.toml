@@ -1,0 +1,12 @@
+[package]
+name = "rs-simple-proxy-example"
+version = "0.1.0"
+authors = ["Hiroaki Nakamura <hnakamur@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+simple_proxy = { git = "https://github.com/terry90/rs-simple-proxy", features = ["router"] }
+structopt = "0.3.15"
+tokio = { version = "0.2.22", features = ["full", "tracing"] }

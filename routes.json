@@ -1,0 +1,9 @@
+{
+    "rules": [
+        {
+            "from": {"host":"localhost:8080", "path":"/"},
+            "to": {"host":"localhost", "path":"/"},
+            "public": true
+        }
+    ]
+}
